@@ -52,5 +52,15 @@ namespace WindowsFormsApp1
             textBox3.Text = Convert.ToString(c);
             label5.Text = "Деление";
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToInt32(textBox1.Text);
+            double b = Convert.ToInt32(textBox2.Text);
+            double c;
+            c = Math.Sqrt(a);
+            textBox3.Text = Convert.ToString(c);
+            label5.Text = "Квадратный корень";
+        }
     }
 }

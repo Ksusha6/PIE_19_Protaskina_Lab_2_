@@ -40,6 +40,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -48,7 +49,7 @@
             this.label1.Location = new System.Drawing.Point(14, 18);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 27);
+            this.label1.Size = new System.Drawing.Size(121, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Первое число";
             // 
@@ -58,7 +59,7 @@
             this.label2.Location = new System.Drawing.Point(14, 54);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 27);
+            this.label2.Size = new System.Drawing.Size(121, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "Второе число";
             // 
@@ -68,7 +69,7 @@
             this.label3.Location = new System.Drawing.Point(57, 94);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 27);
+            this.label3.Size = new System.Drawing.Size(88, 21);
             this.label3.TabIndex = 2;
             this.label3.Text = "Результат";
             // 
@@ -77,7 +78,7 @@
             this.textBox1.Location = new System.Drawing.Point(176, 11);
             this.textBox1.Margin = new System.Windows.Forms.Padding(5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(228, 34);
+            this.textBox1.Size = new System.Drawing.Size(228, 29);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
@@ -85,7 +86,7 @@
             this.textBox2.Location = new System.Drawing.Point(176, 49);
             this.textBox2.Margin = new System.Windows.Forms.Padding(5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(228, 34);
+            this.textBox2.Size = new System.Drawing.Size(228, 29);
             this.textBox2.TabIndex = 4;
             // 
             // textBox3
@@ -93,7 +94,7 @@
             this.textBox3.Location = new System.Drawing.Point(175, 87);
             this.textBox3.Margin = new System.Windows.Forms.Padding(5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(228, 34);
+            this.textBox3.Size = new System.Drawing.Size(228, 29);
             this.textBox3.TabIndex = 5;
             // 
             // label4
@@ -102,7 +103,7 @@
             this.label4.Location = new System.Drawing.Point(216, 117);
             this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 27);
+            this.label4.Size = new System.Drawing.Size(0, 21);
             this.label4.TabIndex = 6;
             // 
             // button1
@@ -155,14 +156,26 @@
             this.label5.Location = new System.Drawing.Point(250, 136);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label5.Size = new System.Drawing.Size(0, 27);
+            this.label5.Size = new System.Drawing.Size(0, 21);
             this.label5.TabIndex = 11;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(431, 180);
+            this.button5.Margin = new System.Windows.Forms.Padding(5);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(185, 37);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "Квадратный корень";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 179);
+            this.ClientSize = new System.Drawing.Size(654, 231);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -198,6 +211,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button5;
     }
 }
 
